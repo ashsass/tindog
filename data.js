@@ -1,6 +1,6 @@
 //Note: hasBeenSwiped will switch to positive whether the dog has been liked or not, hasBeenLiked obviously only switches when the like button is clicked
 
-const dogs = [
+ const dogs = [
     {
         name: "Rex",
         avatar: "images/dog-rex.jpg",
@@ -25,3 +25,5 @@ const dogs = [
         hasBeenLiked: false
     }
 ]
+
+export { dogs }
