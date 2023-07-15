@@ -1,3 +1,5 @@
+//Note: hasBeenSwiped will switch to positive whether the dog has been liked or not, hasBeenLiked obviously only switches when the like button is clicked
+
 const dogs = [
     {
         name: "Rex",
