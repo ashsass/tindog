@@ -6,3 +6,21 @@ body {
     margin: 0;
     font-family: "Poppins", sans-serif;
 }
+
+#root {
+    margin: 0 auto;
+    width: 550px;
+    border: 1px solid black;
+}
+
+.header {
+    width: 550px;
+    height: 81px;
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header--icon {
+    height: 100%;
+}
