@@ -3,6 +3,66 @@
 }
 
 body {
-    margin: 0;
     font-family: "Poppins", sans-serif;
+}
+
+#root {
+    margin: 0 auto;
+    width: 550px;
+    background: linear-gradient(180deg, #FFF 0%, #F6F7FB 100%);
+}
+
+.header {
+    width: 550px;
+    height: 81px;
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header--icon {
+    height: 100%;
+}
+
+.bold {
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+}
+
+/* Dog Picture Container */
+main{ 
+    display: flex;
+    justify-content: center;
+}
+
+p{
+    margin: 0;
+    color: #B7B7B7;
+    font-size: 24px;
+}
+
+.dog {
+    display: flex;
+    align-items: flex-end;
+    width: 534px;
+    height: calc(100vh - 14em);
+    border-radius: 15px;
+    background: url(./images/dog-teddy.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.dog--text {
+    padding: 20px;
+}
+
+/* Footer */
+.button--container {
+    display: flex;
+    justify-content: center;
+}
+
+.button--container > img {
+    width: 100px;
 }
