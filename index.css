@@ -1,3 +1,11 @@
+/*
+SYTLING TO DO
+- Make more responsive (em, rem, etc)
+- Work on picture display a little more to fit the design spec better
+- May need to change heart and reject buttons to icons rather than images
+- Figure out linear gradient on photo so that the gray text is easier to read
+*/
+
 * {
     box-sizing: border-box;
 }
